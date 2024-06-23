@@ -66,8 +66,4 @@ Evaluation Metrics
 
 Results
 
-After evaluating the models, we found that the [best performing model] was [Model Name] with the following metrics:
-
-    MSE: [value]
-    RMSE: [value]
-    R-Squared: [value]# Projects
+After evaluating the models, we found that the 
