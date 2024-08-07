@@ -13,26 +13,28 @@ Objective
 
 ## Methodology
 
-   ### Data Cleaning:
-       Dropped irrelevant columns like Employee Number, Surname, and Given Name.
-       Handled missing values and removed outliers from the numeric features.
+### Data Cleaning:
+- Dropped irrelevant columns like Employee Number, Surname, and Given Name.
+- Handled missing values and removed outliers from the numeric features.
 
-   ### Feature Engineering:
-        Encoded categorical variables using One-Hot Encoding.
-        Applied dimensionality reduction using Principal Component Analysis (PCA).
+### Feature Engineering:
+- Encoded categorical variables using One-Hot Encoding.
+- Applied dimensionality reduction using Principal Component Analysis (PCA).
 
-   ### Modeling:
-        Implemented Multiple Linear Regression (MLR) and Random Forest Regressor (RFR).
-        Compared the performance of the models with and without PCA.
+### Modeling:
+- Implemented Multiple Linear Regression (MLR) and Random Forest Regressor (RFR).
+- Compared the performance of the models with and without PCA.
 
 ## Results
 
 After evaluating the models, we found that the Random Forest Regressor (RFR) performed the best, achieving an R-Squared of 0.7347 and a Root Mean Squared Error (RMSE) of 24.71. The use of PCA slightly reduced the model's performance but provided better interpretability by reducing the feature set.
-Model	Mean Squared Error (MSE)	Root Mean Squared Error (RMSE)	R-Squared
-MLR	          3.59e+20	                         1.89e+10           -1.56e+17
-RFR	          610.57	                         24.71               0.7347
-MLR with PCA  612.99	                         24.76	             0.7336
-RFR with PCA  622.89	                         24.96	             0.7293
+| Model          | Mean Squared Error (MSE) | Root Mean Squared Error (RMSE) | R-Squared    |
+|----------------|--------------------------|--------------------------------|--------------|
+| MLR            | 3.59e+20                 | 1.89e+10                       | -1.56e+17    |
+| RFR            | 610.57                   | 24.71                          | 0.7347       |
+| MLR with PCA   | 612.99                   | 24.76                          | 0.7336       |
+| RFR with PCA   | 622.89                   | 24.96                          | 0.7293       |
+
 ## Visualizations
 
    - Boxplots: Displayed the distribution of key numeric features to identify outliers.
@@ -59,4 +61,4 @@ The Random Forest Regressor was the most effective model for predicting absentee
 
 ## Author
 
-Raghul TK - 
+Raghul TK - (https://www.linkedin.com/in/raghul-tk-39a24b225/)
