@@ -14,8 +14,8 @@ Objective
 ## Methodology
 
    ### Data Cleaning:
-      - Dropped irrelevant columns like Employee Number, Surname, and Given Name.
-      * Handled missing values and removed outliers from the numeric features.
+       Dropped irrelevant columns like Employee Number, Surname, and Given Name.
+       Handled missing values and removed outliers from the numeric features.
 
    ### Feature Engineering:
         Encoded categorical variables using One-Hot Encoding.
@@ -35,9 +35,9 @@ MLR with PCA  612.99	                         24.76	             0.7336
 RFR with PCA  622.89	                         24.96	             0.7293
 ## Visualizations
 
-    Boxplots: Displayed the distribution of key numeric features to identify outliers.
-    Explained Variance Plot: Demonstrated the cumulative variance explained by the PCA components.
-    Feature Importance: Highlighted the top 20 most important features in the Random Forest model.
+   - Boxplots: Displayed the distribution of key numeric features to identify outliers.
+   - Explained Variance Plot: Demonstrated the cumulative variance explained by the PCA components.
+   - Feature Importance: Highlighted the top 20 most important features in the Random Forest model.
 
 
 ## Conclusion
@@ -45,17 +45,17 @@ RFR with PCA  622.89	                         24.96	             0.7293
 The Random Forest Regressor was the most effective model for predicting absenteeism in this dataset. Although PCA reduced the model's performance slightly, it allowed for a more manageable and interpretable model by reducing the dimensionality of the dataset.
 ## Tools & Libraries
 
-    Python
-    Pandas
-    Scikit-learn
-    Seaborn
-    Matplotlib
+  -  Python
+  -  Pandas
+  -  Scikit-learn
+  -  Seaborn
+  -  Matplotlib
 
 ## Future Work
 
-    Explore additional models such as Gradient Boosting or XGBoost.
-    Fine-tune hyperparameters of the Random Forest model for further improvement.
-    Investigate potential external factors influencing absenteeism that are not included in this dataset.
+  -  Explore additional models such as Gradient Boosting or XGBoost.
+  -  Fine-tune hyperparameters of the Random Forest model for further improvement.
+  -  Investigate potential external factors influencing absenteeism that are not included in this dataset.
 
 ## Author
 
