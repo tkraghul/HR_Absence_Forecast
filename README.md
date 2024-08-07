@@ -7,7 +7,6 @@ Objective
 The primary objective of this project was to compare different machine learning models to determine the most accurate method for predicting absenteeism hours.
 ## Dataset
 
-    Source: [Include the source of your dataset if publicly available]
     Size: 8,330 entries
     Features: Age, Gender, Job Title, Department, Length of Service, etc.
     Target Variable: Absent Hours
