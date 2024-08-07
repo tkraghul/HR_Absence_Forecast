@@ -4,18 +4,18 @@
 - This project aims to predict the number of hours an employee might be absent from work using various regression models. The dataset used contains information on 8,330 employees, including demographic details, job roles, and absenteeism records.
 Objective
 
--The primary objective of this project was to compare different machine learning models to determine the most accurate method for predicting absenteeism hours.
+- The primary objective of this project was to compare different machine learning models to determine the most accurate method for predicting absenteeism hours.
 ## Dataset
 
-    Size: 8,330 entries
-    Features: Age, Gender, Job Title, Department, Length of Service, etc.
-    Target Variable: Absent Hours
+   - Size: 8,330 entries
+    - Features: Age, Gender, Job Title, Department, Length of Service, etc.
+   - Target Variable: Absent Hours
 
 ## Methodology
 
    ### Data Cleaning:
-        Dropped irrelevant columns like Employee Number, Surname, and Given Name.
-        Handled missing values and removed outliers from the numeric features.
+      - Dropped irrelevant columns like Employee Number, Surname, and Given Name.
+      * Handled missing values and removed outliers from the numeric features.
 
    ### Feature Engineering:
         Encoded categorical variables using One-Hot Encoding.
