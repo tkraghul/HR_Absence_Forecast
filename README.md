@@ -59,6 +59,6 @@ The Random Forest Regressor was the most effective model for predicting absentee
   -  Fine-tune hyperparameters of the Random Forest model for further improvement.
   -  Investigate potential external factors influencing absenteeism that are not included in this dataset.
 
-## Author
+## Done by
 
 Raghul TK - (https://www.linkedin.com/in/raghul-tk-39a24b225/)
